@@ -1,0 +1,33 @@
+.App {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    background-color: #f8f9fa; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  button {
+    background-color: #0FA4AF; 
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .App {
+      padding: 10px;
+    }
+  
+    button {
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+  }
+  
