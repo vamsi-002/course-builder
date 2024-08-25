@@ -46,7 +46,6 @@ const App = () => {
 
   const moveResource = (fromIndex, toIndex) => {
     const draggedModule = modules[fromIndex];
-    const targetModule = modules[toIndex];
 
     setModules(modules.map((mod, index) => {
       if (index === fromIndex) {
